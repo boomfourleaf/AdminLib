@@ -1,4 +1,12 @@
 PODS:
+  - BetterBaseClasses (1.8.1):
+    - BetterBaseClasses/Constants (= 1.8.1)
+    - BetterBaseClasses/Controllers (= 1.8.1)
+    - BetterBaseClasses/Views (= 1.8.1)
+  - BetterBaseClasses/Constants (1.8.1)
+  - BetterBaseClasses/Controllers (1.8.1):
+    - BetterBaseClasses/Constants
+  - BetterBaseClasses/Views (1.8.1)
   - flFoundation (0.2.4):
     - flFoundation/MKNumberBadgeView (= 0.2.4)
     - flFoundation/StarPrinter (= 0.2.4)
@@ -20,6 +28,7 @@ PODS:
   - WDImagePicker (0.2.2)
 
 DEPENDENCIES:
+  - BetterBaseClasses (~> 1.0)
   - flFoundation (from `https://github.com/appsolute/flFoundation.git`)
   - Toucan (~> 0.5)
   - WDImagePicker (from `https://github.com/justwudi/WDImagePicker.git`)
@@ -39,6 +48,7 @@ CHECKOUT OPTIONS:
     :git: https://github.com/justwudi/WDImagePicker.git
 
 SPEC CHECKSUMS:
+  BetterBaseClasses: 3d36d690b2d18929748b5eb16be906e3bd232ed4
   flFoundation: a5bbe1a8a14d182c63b3c0be32d4fba2eba2f7a7
   Realm: 0e293bb62999730599efc3048896bbd4f2e43bcd
   RealmSwift: 064262d38113f23ff3508fb20a0a922e696bec01
@@ -46,6 +56,6 @@ SPEC CHECKSUMS:
   Toucan: 0519c341148252ae114c5a657d2a85bb9ada9e40
   WDImagePicker: 0014e231d67a63db9a97db74332a8a16723809bc
 
-PODFILE CHECKSUM: 547f3f616f07ecfb56967a853e48167900dc74f5
+PODFILE CHECKSUM: 984f8ab13e17f73af6f74dbbdcd1ad7253c7c68c
 
 COCOAPODS: 1.0.1

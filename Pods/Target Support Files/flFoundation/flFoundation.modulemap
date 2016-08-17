@@ -1,0 +1,6 @@
+framework module flFoundation {
+  umbrella header "flFoundation-umbrella.h"
+
+  export *
+  module * { export * }
+}

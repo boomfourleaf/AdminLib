@@ -1,0 +1,6 @@
+framework module Pods_AdminLib {
+  umbrella header "Pods-AdminLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

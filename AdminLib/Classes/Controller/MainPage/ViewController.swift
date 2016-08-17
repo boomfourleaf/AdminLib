@@ -17,14 +17,14 @@ struct Section {
     }
 }
 
-class ViewControllers: UIViewController , UICollectionViewDelegate, UICollectionViewDataSource{
+public class ViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource{
     
     @IBOutlet weak var collectionView: UICollectionView!
     
     var dataSource:[Section] = []
     var screenWidthCol=CGFloat()
     
-    override func viewDidLoad() {
+    override public func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
@@ -64,18 +64,18 @@ class ViewControllers: UIViewController , UICollectionViewDelegate, UICollection
 //        screenWidthCol = size.width/12
 //    }
 
-    override func didReceiveMemoryWarning() {
+    override public func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
     
-    override func viewWillTransitionToSize(size: CGSize, withTransitionCoordinator coordinator: UIViewControllerTransitionCoordinator) {
+    override public func viewWillTransitionToSize(size: CGSize, withTransitionCoordinator coordinator: UIViewControllerTransitionCoordinator) {
 
         collectionView.collectionViewLayout.invalidateLayout()
     }
     
-    func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
+    public func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
         print("reload")
         let numberOfSection = CGFloat(dataSource[indexPath.section].sectionMember.count)
         let columnWidth = screenWidthCol * (12/numberOfSection)
@@ -99,7 +99,7 @@ class ViewControllers: UIViewController , UICollectionViewDelegate, UICollection
     }
     
     
-    func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
+    public func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
         if indexPath.section == 0{
             switch indexPath.row {
             case 0:
@@ -132,17 +132,17 @@ class ViewControllers: UIViewController , UICollectionViewDelegate, UICollection
     }
     
 
-    func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+    public func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
       return dataSource[section].sectionMember.count
     }
     
-    func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {
+    public func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {
         return dataSource.count
     }
 }
 
 
-extension ViewControllers : GridSystemLayoutDelegate {
+extension ViewController : GridSystemLayoutDelegate {
     // 1
     func collectionView(collectionView:UICollectionView, heightForPhotoAtIndexPath indexPath: NSIndexPath,
                         withWidth width: CGFloat) -> CGFloat {

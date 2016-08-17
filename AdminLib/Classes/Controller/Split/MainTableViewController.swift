@@ -7,8 +7,10 @@
 //
 
 import UIKit
+import BetterBaseClasses
 
-class MainTableViewController: UITableViewController, UISplitViewControllerDelegate {
+
+public class MainTableViewController: UITableViewController, UISplitViewControllerDelegate {
 
     var dataSource:[Section] = []{
         didSet{

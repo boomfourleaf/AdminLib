@@ -8,10 +8,5 @@ target 'AdminLib' do
   pod 'flFoundation', :git => 'https://github.com/appsolute/flFoundation.git'
   pod 'WDImagePicker', :git => 'https://github.com/justwudi/WDImagePicker.git'
   pod 'Toucan', '~> 0.5'
-
-  target 'AdminLibTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-
+  pod 'BetterBaseClasses', '~> 1.0'
 end

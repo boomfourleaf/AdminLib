@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AdminLib'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'A short description of AdminLib.'
 
 # This description is used to generate tags and improve search results.
@@ -43,4 +43,5 @@ TODO: Add long description of the pod here.
   s.dependency 'flFoundation'
   s.dependency 'Toucan'
   s.dependency 'WDImagePicker'
+  s.dependency 'BetterBaseClasses', '~> 1.0'
 end
