@@ -1,0 +1,92 @@
+/* 
+  EnglishLanguage.strings
+  Dining
+
+  Created by Nattapon Nimakul on 7/6/2558 BE.
+  Copyright © 2558 totizy@gmail.com. All rights reserved.
+*/
+
+"Welcome" = "Welcome";
+"Log In" = "Log In";
+"Setting" = "Setting";
+"Language" = "Language";
+"Order List" = "Order List";
+"Send" = "Send";
+"Special Instruction" = "Special Instruction";
+"Order Summary" = "Order Summary";
+"Amount" = "Amount";
+
+"Cancel" = "Cancel";
+"Confirm" = "Confirm";
+"Clear" = "Clear";
+"OK" = "OK";
+"Change" = "Change";
+"Close" = "Close";
+"Pay" = "Pay";
+
+"Grand total" = "Grand total";
+"Add" = "Add";
+"Remove" = "Remove";
+"Service charge" = "Service charge";
+"Price included" = "Price included";
+"No staff" = "No staff";
+"Please Sign In" = "Please Sign In";
+"Empty" = "Empty";
+"The order list is empty" = "The order list is empty";
+"Total Price" = "Total Price";
+"Order Confirmation" = "Order Confirmation";
+"menus" = "menus";
+"menu" = "menu";
+"No table" = "No table";
+"No room" = "No room";
+
+"Table" = "Table";
+"Split" = "Split";
+
+"Save" = "Save";
+"Saving" = "Saving";
+"Select Table" = "Select Table";
+"Move" = "Move";
+"Void" = "Void";
+
+"Close Shift" = "Close Shift";
+"Select a Shift" = "Select a Shift";
+"Discount" = "Discount";
+"Print Check" = "Check";
+"Cash" = "Cash";
+"Credit Card" = "Credit Card";
+"Room" = "Room";
+"OC" = "OC";
+"Entertain" = "Entertain";
+"Split" = "Split";
+"Cashier Change" = "Change";
+"Password" = "Password";
+"History" = "History";
+"Status" = "Status";
+"Finished Orders" = "Finished Orders";
+"Unfinished Orders" = "Unfinished Orders";
+"Subtotal" = "Subtotal";
+"Service Charge" = "Service Charge";
+"Total" = "Total";
+"Vat" = "Vat";
+"Misc." = "Misc.";
+
+"Staff" = "Staff";
+"Guest" = "Guest";
+"Logout" = "Logout";
+
+"Change Table" = "Change Table";
+
+// Tabbar
+"Menu" = "Menu";
+//"Table" = "Table";
+"Order History" = "Order History";
+"Cashier" = "Cashier";
+"Stock" = "Stock";
+
+"Bill" = "Bill";
+
+"And" = "And";
+
+"Yesterday" = "Yesterday";
+"Tomorrow" = "Tomorrow";

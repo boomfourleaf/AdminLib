@@ -1,0 +1,6 @@
+framework module Pods_AdminLib_Tests {
+  umbrella header "Pods-AdminLib_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

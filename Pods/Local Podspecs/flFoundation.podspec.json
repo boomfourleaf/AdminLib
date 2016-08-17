@@ -1,0 +1,63 @@
+{
+  "name": "flFoundation",
+  "version": "0.2.4",
+  "summary": "FOURLEAF Foundation Uitility.",
+  "description": "FOURLEAF Foundation Uitility.\nIncluding Framework, Helper for all FOURLEAF Project.",
+  "homepage": "https://github.com/appsolute/flFoundation",
+  "license": {
+    "type": "FOURLEAF Property",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Nattapon Nimakul": "nattapon@appsolutesoft.com"
+  },
+  "source": {
+    "git": "https://github.com/appsolute/flFoundation.git",
+    "tag": "0.2.4"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "flFoundation/Classes/**/*",
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "\"$(SRCROOT)/../..\""
+  },
+  "ios": {
+    "vendored_frameworks": [
+      "StarIO.framework",
+      "StarIO_Extension.framework"
+    ],
+    "vendored_libraries": "libeposprint.a"
+  },
+  "pod_target_xcconfig": {
+    "ENABLE_BITCODE": "NO"
+  },
+  "resource_bundles": {
+    "flFoundation": [
+      "flFoundation/Assets/**/*.storyboard",
+      "flFoundation/Assets/**/*.png",
+      "flFoundation/Assets/**/*.strings"
+    ]
+  },
+  "frameworks": "CoreBluetooth",
+  "dependencies": {
+    "SwiftyJSON": [
+      "2.3.1"
+    ],
+    "RealmSwift": [
+      "~> 0.98.6"
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "MKNumberBadgeView",
+      "source_files": "flFoundation/Classes/3rd Party/MKNumberBadgeView/*.{h,m}",
+      "requires_arc": false
+    },
+    {
+      "name": "StarPrinter",
+      "source_files": "flFoundation/Classes/Printer/StarPrinter/*.{h,m}",
+      "requires_arc": false
+    }
+  ]
+}

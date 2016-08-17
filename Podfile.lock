@@ -1,0 +1,51 @@
+PODS:
+  - flFoundation (0.2.4):
+    - flFoundation/MKNumberBadgeView (= 0.2.4)
+    - flFoundation/StarPrinter (= 0.2.4)
+    - RealmSwift (~> 0.98.6)
+    - SwiftyJSON (= 2.3.1)
+  - flFoundation/MKNumberBadgeView (0.2.4):
+    - RealmSwift (~> 0.98.6)
+    - SwiftyJSON (= 2.3.1)
+  - flFoundation/StarPrinter (0.2.4):
+    - RealmSwift (~> 0.98.6)
+    - SwiftyJSON (= 2.3.1)
+  - Realm (0.98.8):
+    - Realm/Headers (= 0.98.8)
+  - Realm/Headers (0.98.8)
+  - RealmSwift (0.98.8):
+    - Realm (= 0.98.8)
+  - SwiftyJSON (2.3.1)
+  - Toucan (0.5.0)
+  - WDImagePicker (0.2.2)
+
+DEPENDENCIES:
+  - flFoundation (from `https://github.com/appsolute/flFoundation.git`)
+  - Toucan (~> 0.5)
+  - WDImagePicker (from `https://github.com/justwudi/WDImagePicker.git`)
+
+EXTERNAL SOURCES:
+  flFoundation:
+    :git: https://github.com/appsolute/flFoundation.git
+  WDImagePicker:
+    :git: https://github.com/justwudi/WDImagePicker.git
+
+CHECKOUT OPTIONS:
+  flFoundation:
+    :commit: 326c890d6596f6f370b53108eb6b18d3d03eb78b
+    :git: https://github.com/appsolute/flFoundation.git
+  WDImagePicker:
+    :commit: aa9330c0d1779ff12758802d257a3dc6d1438766
+    :git: https://github.com/justwudi/WDImagePicker.git
+
+SPEC CHECKSUMS:
+  flFoundation: a5bbe1a8a14d182c63b3c0be32d4fba2eba2f7a7
+  Realm: 0e293bb62999730599efc3048896bbd4f2e43bcd
+  RealmSwift: 064262d38113f23ff3508fb20a0a922e696bec01
+  SwiftyJSON: 592b53bee5ef3dd9b3bebc6b9cb7ee35426ae8c3
+  Toucan: 0519c341148252ae114c5a657d2a85bb9ada9e40
+  WDImagePicker: 0014e231d67a63db9a97db74332a8a16723809bc
+
+PODFILE CHECKSUM: 547f3f616f07ecfb56967a853e48167900dc74f5
+
+COCOAPODS: 1.0.1

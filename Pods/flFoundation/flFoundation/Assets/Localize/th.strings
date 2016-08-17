@@ -1,0 +1,92 @@
+/* 
+  Thai.strings
+  Dining
+
+  Created by Nattapon Nimakul on 7/6/2558 BE.
+  Copyright © 2558 totizy@gmail.com. All rights reserved.
+*/
+
+"Welcome" = "ยินดีต้อนรับ";
+"Log In" = "เริ่มใช้งาน";
+"Setting" = "ตั้งค่า";
+"Language" = "ภาษา";
+"Order List" = "รายการ";
+"Send" = "ส่ง";
+"Special Instruction" = "เพิ่มเติม";
+"Order Summary" = "สรุปรายการ";
+"Amount" = "จำนวน";
+
+"Cancel" = "ยกเลิก";
+"Confirm" = "ยืนยัน";
+"Clear" = "เคลียร์";
+"OK" = "ตกลง";
+"Change" = "เปลี่ยน";
+"Close" = "ปิด";
+"Pay" = "จ่าย";
+
+"Grand total" = "รวม";
+"Add" = "เพิ่ม";
+"Remove" = "ไม่เอา";
+"Service charge" = "เซอร์วิสชาร์จ";
+"Price included" = "ราคารวม";
+"No staff" = "ไม่ได้ลงชื่อพนักงาน";
+"Please Sign In" = "โปรดใส่รหัสพนักงาน";
+"Empty" = "ไม่พบรายการ";
+"The order list is empty" = "รายการของคุณว่างเปล่า";
+"Total Price" = "ราคารวม";
+"Order Confirmation" = "ยืนยันรายการ";
+"menus" = "เมนู";
+"menu" = "เมนู";
+"No table" = "ไม่ได้เลือกโต๊ะ";
+"No room" = "ไม่ได้เลือกห้อง";
+
+"Table" = "โต๊ะ";
+"Split" = "แยกบิล";
+
+"Save" = "บันทึก";
+"Saving" = "กำลังบันทึก";
+"Select Table" = "เลือกโต๊ะ";
+"Move" = "ย้าย";
+"Void" = "วอยด์";
+
+"Close Shift" = "ปิดรอบ";
+"Select a Shift" = "เลือกรอบ";
+"Discount" = "ลดราคา";
+"Print Check" = "เช็ค";
+"Cash" = "เงินสด";
+"Credit Card" = "บัตรเครดิต";
+"Room" = "ห้อง";
+"OC" = "OC";
+"Entertain" = "เอนเตอร์เทน";
+"Split" = "หลายวิธี";
+"Cashier Change" = "ทอน";
+"Password" = "รหัส";
+"History" = "ประวัติ";
+"Status" = "สถานะ";
+"Finished Orders" = "คิดเงินแล้ว";
+"Unfinished Orders" = "ยังไม่ได้คิดเงิน";
+"Subtotal" = "ยอดรวมก่อน";
+"Service Charge" = "เซอร์วิสชาร์จ";
+"Total" = "ยอดรวม";
+"Vat" = "Vat";
+"Misc." = "ปัดเศษ";
+
+"Staff" = "พนักงาน";
+"Guest" = "ลูกค้า";
+"Logout" = "ออกจากระบบ";
+
+"Change Table" = "กำหนดโต๊ะ";
+
+// Tabbar
+"Menu" = "เมนู";
+//"Table" = "Table";
+"Order History" = "รายการที่สั่ง";
+"Cashier" = "แคชเชียร์";
+"Stock" = "คลัง";
+
+"Bill" = "บิล";
+
+"And" = "และ";
+
+"Yesterday" = "เมื่อวาน";
+"Tomorrow" = "พรุ่งนี้";

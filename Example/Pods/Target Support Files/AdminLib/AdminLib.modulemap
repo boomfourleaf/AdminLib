@@ -1,0 +1,6 @@
+framework module AdminLib {
+  umbrella header "AdminLib-umbrella.h"
+
+  export *
+  module * { export * }
+}
